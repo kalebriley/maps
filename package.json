@@ -4,7 +4,8 @@
   "description": "A typescript project for finding a location",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
   },
   "author": "Kaleb Riley",
   "license": "ISC",
@@ -14,5 +15,8 @@
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
   }
 }
