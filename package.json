@@ -4,7 +4,9 @@
   "description": "A typescript project for finding a location",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.prod.js"
   },
   "author": "Kaleb Riley",
   "license": "ISC",
@@ -14,5 +16,9 @@
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "lite-server": "^2.6.1"
   }
 }
